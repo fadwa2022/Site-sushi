@@ -1,0 +1,399 @@
+body{
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.header{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.select {
+  margin-top: -1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 100%;
+
+}
+.hero{
+  margin-top: -3%;
+  display: flex;
+  flex-direction: column;
+}
+.accueil{
+  margin-top: 3%;
+  font-size: 150%;
+  text-shadow: 2px 2px #cdc1c1;
+  font-family: Cinzel;
+}
+.grbuttonexpo{
+  display: flex;
+  flex-direction: column;
+  margin-top: 0%;
+  text-align: center;
+}
+.body_page{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.choixplat{
+  width: 50%;
+  height: 20%;
+  padding-bottom: 3%;
+ }
+ /* select {
+  background: linear-gradient(180deg, #925d78 0%, #2f2d2e 100%);
+  font-size: 1em;
+  padding: 24px 271px;
+  margin-left: 51%;
+
+} */
+.choixplat option{
+  color:#B98A99;
+  font-size: 100%;
+  font-family: Cinzel;
+  margin-top: -15%;
+
+}
+
+.text {
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  font-size: 228%;
+  font-family: Cinzel;
+  margin-top: -15%;
+}
+#button{
+  background-color: #D9D9D9; 
+ border-radius:8.65261px;
+ width: 211px;
+ height: 30px;
+ border-color: #D9D9D9;
+ margin-left: 21%;
+
+}
+.EXPLORE_OUR_DELICOUS_MENU{
+  color: rgb(245, 245, 245);
+  font-size: 11px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Roboto;
+  line-height: 50px;
+}
+.textview {
+    color: rgba(0, 0, 0, 0.8299999833106995);
+    font-weight: 700;
+    text-decoration: none;
+}
+.accueil-button {
+  margin-left: -26%;
+  height: 51px;
+
+}
+
+/*bodypage*/
+.bodypage{
+  display: felx;
+  flex-direction: column;
+}
+.Visit_Our {
+  top: -27px;
+  margin-left: -73%;
+  color: rgba(244, 143, 175, 1);
+  font-size: 47px;
+  text-align: center;
+  font-family: Cinzel Decorative;
+  line-height: 39px;
+}
+.discription {
+  width: 61%;
+  margin-left: 2%;
+  font-size: 17px;
+  font-family: Roboto;
+  font-weight: 100;
+}
+.LOCATIONS{
+  font-size: 26px;
+  color: rgba(0, 0, 0, 1);
+  font-size: 146%;
+  font-family: Roboto;
+  font-weight: 300;
+  line-height: 145%;
+  margin-left: 9%;
+}
+.button2 {
+  margin-top: 5%;
+  margin-left: 41%;
+  width: 165px;
+  height: 40px;
+
+}
+.ajoutetext{
+  margin: auto;
+  padding: 0.5%;
+  color: rgb(107, 99, 102);
+  font-size: 34px;
+  text-align: center;
+  font-family: Cinzel Decorative;
+}
+.selimags{
+  padding: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.selimags1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.img1{
+  opacity: 0.6;
+  width: 21%;
+  box-shadow: 2px 2px 4px #000000;
+}
+.name{
+  color: rgba(14, 13, 14, 0.984);
+  font-size: 60px;
+  text-align: center;
+  font-family: Cinzel Decorative;
+  z-index: 1;
+  
+}
+#n1{
+  position:absolute;
+  margin-top: 14%;
+  margin-left: -65%;
+}
+#n2{
+  position:absolute;
+  margin-top: 14%;
+ 
+}
+#n3{
+  position:absolute;
+  margin-top: 14%;
+ margin-left: 64%;
+}
+#btn{
+  background-color: #f48faf;
+  bottom: 3.99%;
+  border-radius: 8.65261px;
+  width: 224px;
+   height: 40px;
+  margin-top: -18px;
+  border-color: #f48faf;
+  margin-left: 6px;
+}
+/*footer*/
+.footer{
+  display: flex;
+   justify-content: space-around;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7599999904632568);
+}
+.div1 {
+  display:flex;
+  flex-direction: column;
+ 
+}
+#t{
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  font-family: Roboto;
+}
+.div1 p{
+  color: rgb(255, 255, 255);
+  width: 388px;
+  font-size: 9px;
+  text-align: center;
+  font-family: Roboto;
+}
+.div2 {
+  display:flex;
+  flex-direction: column;
+  margin-top: -1%;
+}
+.div2 p{
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  font-family: Roboto;
+
+}
+.horaire {
+  color: rgb(255, 255, 255);
+  font-size: 9px;
+  font-family: Roboto;
+  
+}
+.div3 {
+  display:flex;
+  flex-direction: column;
+  margin-top: -1%;
+}
+.div3 div{
+  color: rgba(255, 255, 255, 1);
+  font-size: 9px;
+  font-family: Roboto;
+  font-weight: 100;
+ 
+}
+.div3 p {
+  color: rgba(255, 255, 255, 1);
+  font-style: Regular;
+  font-family: Roboto;
+}
+.men{
+
+    font-size: 114%;
+    text-shadow: 2px 2px #cdc1c1;
+    font-family: Cinzel;
+
+}
+ul{
+    display: none;
+   
+}
+li{
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.memob{
+    display: none;
+}
+@media screen and (max-width: 680px) {
+  .accueil{
+    font-size: 10px;
+    font-family: Cinzel;
+    line-height: 39px;
+  }
+  .bgimg {
+    height:158px;
+    width: 100%;
+  }
+.text {
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  font-size: 174%;
+  font-family: Cinzel;
+  margin-top: -25%;
+}    
+.EXPLORE_OUR_DELICOUS_MENU {
+color: rgb(245, 245, 245);
+font-size: 6px;
+font-style: Bold;
+text-align: center;
+font-family: Roboto;
+line-height: 21px;
+}
+#button{
+width: 148px;
+}
+  .bodypage{
+    display: felx;
+    flex-direction: column;
+    background-image: url(./public/playground_assets/mae-mu-hDYNeAebHtU-unsplash-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .Visit_Our {
+    margin-left: -7%;
+    color: rgba(244, 143, 175, 1);
+    font-size: 47px;
+    text-align: center;
+    font-family: Cinzel Decorative;
+    line-height: 39px;
+  }
+  .discription {
+    width: 50%;
+    margin-left: 30%;
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 400;
+  }
+  .LOCATIONS{
+    font-size: 26px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 146%;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 305%;
+    margin-left: 40%;
+  }
+  .button2 {
+    margin-top: 30%;
+    margin-left: 41%;
+    width: 165px;
+    height: 40px;
+  
+  }
+  #t{
+    font-size:10px;
+  }
+.div1 p{
+  width: 100px;
+  font-size: 6px;
+  text-align: center;
+  font-family: Roboto;
+}
+.div2 p{
+  font-size:10px;
+}
+.horaire {
+  width: 100px;
+  font-size: 7px;
+  
+}
+.div3 div{
+  width: 100px;
+  font-size: 7px;
+}
+.div3 p {
+  font-size:10px;
+}
+.selimags{
+  display: none;
+}
+.accueil-button{
+  margin-top: -5%;
+}
+.hero{
+    display: none;
+  }
+  .accueil{
+    display: none;
+  }
+  .footer{
+    display: none;
+  }
+.s{
+    display: none;
+}
+.memob{
+    display: block;
+}
+}
+.menumobile{
+    display: flex;
+    justify-content: space-around;
+background-color: #B98A99;
+width: 100%;
+}
+.dmenu{
+   align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+i{
+   font-size: 2.5em;
+ color: black;
+ font-family: Cinzel;}

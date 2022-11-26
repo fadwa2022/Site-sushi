@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <title>IZANAGI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" data-tag="font"/>
+    <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"data-tag="font"/>
+    <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&amp;display=swap"data-tag="font"/>
+    <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"data-tag="font"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&amp;display=swap"data-tag="font"/>
+    <link href="./pagegall.css" rel="stylesheet" />
+    <style>
+      .facturation {
+        display: flex;
+        flex-direction: column;
+        margin-left: 12%;
+        margin-top: 10%;
+        font-family: 'Poppins',sans-serif;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 42px;
+      }
+      #confirmere{
+          
+        background: #a3979b;
+        margin-left: 82%;
+       margin-top: 45px;
+        width: 105px;
+        height: 30px;
+     
+        border-color: transparent;
+        border-radius: 29.45008087158203px;
+      }
+      .wrap{
+          max-width: 763px;
+          padding: 84px;
+          margin-left: 12%;
+          margin-top: 2%;
+         background-image: url("public/playground_assets/mahmoud-fawzy-sGPMqwj3N5M-unsplash.jpg") ;
+        backdrop-filter: blur(2px);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      
+      }
+
+      .openbtn{
+          background: #CA738F;
+         
+          width: 105px;
+          height: 25px;
+          margin-left: 85%;
+          border-color: transparent;
+          border-radius: 29.45008087158203px;
+          cursor: pointer;
+      }
+      .overlay{
+          height: 100%;
+          width: 100%;
+          display: none;
+          position: fixed;
+          z-index: 1;
+          top: 0;
+          left: 0;
+      
+      }
+      .closebtn{
+       
+          font-size: 60px;
+          cursor: pointer;
+          color: #db6e34;
+      
+      }
+      .closebtn:hover{
+          color:#ccc ;
+      }
+.fadwa{
+  background-color: rgb(190 190 190 / 29%);
+   border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(112, 112, 112, 0.49);
+  width: 50%;
+  height: 32px;
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="select">
+        <span class="accueil"><a href="index.html" style="text-decoration:none; color: black;" >accueil</a></span>
+        <span class="accueil"><a href="lacarte.html"style="text-decoration:none;color: black;">la carte</a> </span>
+        <div >
+      <img classe="bgimg"alt="logosbg1I121" src="public/playground_assets/logosbg1i121-46x-200h.png"  />
+    </div>
+        <span class="accueil"><a href="izanagi.html"style="text-decoration:none;color: black;">Izanagi</a> </span>
+        <span class="accueil"><a href="contact.html"style="text-decoration:none;color: black;">contact</a> </span>
+      </div>
+      <div class="memob">
+        <button onclick="menu()" style=" border:none ;
+        background:none ;"><i class="ri-menu-line"></i></button> 
+       <ul class="moro" style="list-style: none;">
+         <br>
+         <li>
+          <i class="ri-home-smile-line"></i>
+         <a class="men"href="index.html" style="text-decoration:none; color: black;" >accueil</a></li>
+         <br><li>
+             <i class="ri-question-line"></i>
+             <a   class="men"href="lacarte.html"style="text-decoration:none;color: black;">la carte</a></li>
+         <br><li>
+             <i class="ri-store-fill"></i>
+             <a  class="men"href="izanagi.html"style="text-decoration:none;color: black;">Izanagi</a> </li>
+         <br>
+         <li>
+             <i class="ri-mail-line "></i>
+             <a  class="men"href="contact.html"style="text-decoration:none;color: black;">contact</a> </li>
+       </ul>
+       </div>
+  <div class="hero" >
+        <img alt="kazuootasF90YT7ovIunsplashj1I121"src="public/playground_assets/kazuootasf90yt7oviunsplashj1i121-9ag-1500w.png"class="bgimg"/>
+        <div class="grbuttonexpo">
+          <span class="text">Izanagi</span>
+         <span class="EXPLORE_OUR_DELICOUS_MENU">
+        <span>EXPLORE OUR DELICOUS MENU</span>
+        <br>
+        <br>
+      </span>
+      <div class="accueil-button">
+        <button id="button"><a href="./lacarte.html" style="text-decoration:none ;"><span class="textview">VIEW OUR MENU</span></a></button>
+      </div>
+    
+    </div>
+      </div>
+  </div>
+ 
+        <!-- <div>
+          <div class="flex"><div class="name">SUSHI</div>
+          <div class="explication">Feugiat letius tempor efficitur libero etiam fames conubia lobortis dignissim</div></div>
+        <img class="img1" src="./public/playground_assets/img1.jpg" alt=""></div>
+        <div>
+          <div class="flex"><div class="name">SUSHI</div>
+          <div class="explication">Feugiat letius tempor efficitur libero etiam fames conubia lobortis dignissim</div></div>
+        <img class="img1" src="./public/playground_assets/img2.jpg" alt=""></div>
+        <div>
+          <div class="flex"><div class="name">SUSHI</div>
+          <div class="explication">Feugiat letius tempor efficitur libero etiam fames conubia lobortis dignissim</div></div> -->
+          <div class="selimags">
+            <div class="name" id="n1">Sushi</div>
+            <img class="img1" src="./public/playground_assets/img1.jpg" alt="">
+            <div class="name" id="n2">Entrer</div>
+            <img class="img1" src="./public/playground_assets/img2.jpg" alt="">
+            <div class="name" id="n3">Ramen</div>
+            <img class="img1" src="./public/playground_assets/img4.jpg" alt="">
+              </div>
+            
+  <div class="btns">
+    <button class="buttonfilter"  value="sushi" onclick="sushi()">Sushi</button>
+    <button class="buttonfilter"  value="entrer" onclick="entrer()">Entrer</button>
+    <button class="buttonfilter" value="ramen" onclick="ramen()">Ramen</button>
+  </div>
+  <!-- <div class="choixplat">
+    <select name="pets" id="plat-select">
+    <option value="all">ALL</option>
+    <option value="entrer"> entrer</option>
+    <option value="Sushi">Sushi</option>
+    <option value="ramen">ramen</option>
+    </select>
+    <button class="buttonfilter" onclick="food()">Filter</button>
+        </div> -->
+        <div id="bg">
+       <div class="body_page">
+        <div  class="prod" id="premi">
+       
+        <span class="bgblack"> Entrées </span>
+        
+        <div class="products">
+            <div class="prod" >
+              <img  style="width: 169px;height: 113px;" alt=""src="public/playground_assets/e8675x45011190-spdv-200h.png"/>
+
+                    <button  id="0"  type="button" class="prix"><a href=""><span style="margin-left: -34px;margin-top: -6px;">8.00$</span></a></button>
+              <div class="detailsprod">
+                <span>
+                  <span>CATÉGORIE : ENTRÉES</span>
+                  <br />
+                  <br />
+                  <br />
+                  <span>GYOZA – Raviolis grillés(6p)</span>
+                  <br />
+                  <br />
+                </span>
+             </div>
+            </div>
+            <div class="prod">
+              <img   style="width: 169px;height: 113px;" alt=""src="public/playground_assets/e13675x45011179-bbme-200h.png"/>
+
+                <button  id="1"  class="prix"><a href=""><span style="margin-left: -34px;margin-top: -6px;">5.00$</span></a></button>
+              <div class="detailsprod">
+                <span>
+                  <span>CATÉGORIE : ENTRÉES</span>
+                  <br />
+                  <br />
+                  <br />
+                  <span>Nêms aux poulet(4p)</span>
+                  <br />
+                  <br />
+                </span>
+             </div>
+            </div>
+            <div class="prod">
+              <img  style="width: 169px;height: 113px;"alt=""src="public/playground_assets/e711162-eit7-200h.png"/>
+
+                 <button  id="2"  class="prix"><a href=""><span style="margin-left: -34px;margin-top: -6px;">6.00$</span></a></button>
+ 
+               <div class="detailsprod">
+                 <span>
+                   <span>CATÉGORIE : ENTRÉES</span>
+                   <br />
+                   <br />
+                   <br />
+                   <span>Nêms aux crevettes(4p)</span>
+                   <br />
+                   <br />
+                 </span>
+              </div>
+             </div>
+            </div>
+      </div>
+       <div class="prod" id="deuxi">
+        <span  class="bgblack"> Sushi </span>
+
+        <div class="products2">
+            <div class="prod" >
+              <img  style="width: 169px;height: 113px;" alt=""src="public/playground_assets/foodphotographer8nftsce1dwunsplash1199-gzzk-200h.png"/>
+
+                    <button  id="3"  class="prix"><a href=""><span style="margin-left: -34px;margin-top: -6px;">10.96$</span></a></button>
+              <div class="detailsprod">
+                <span>
+                  <span>CATÉGORIE : ENTRÉES</span>
+                  <br />
+                  <br />
+                  <br />
+                  <span>GYOZA – Raviolis grillés(6p)</span>
+                  <br />
+                  <br />
+                </span>
+             </div>
+            </div>
+            <div class="prod">
+              <img  style="width: 169px;height: 113px;" alt=""src="public/playground_assets/foodphotographer2zcnfpqhlkuunsplash1162-1pf7-200h.png"/>
+
+                <button  id="4"  class="prix"><a href=""><span style="margin-left: -34px;margin-top: -6px;">11.96$</span></a></button>
+              <div class="detailsprod">
+                <span>
+                  <span>CATÉGORIE : ENTRÉES</span>
+                  <br />
+                  <br />
+                  <br />
+                  <span>Nêms aux poulet(4p)</span>
+                  <br />
+                  <br />
+                </span>
+             </div>
+            </div>
+            <div class="prod">
+              <img  style="width: 169px;height: 113px;" alt=""src="public/playground_assets/foodphotographer2zcnfpqhlkuunsplash2184-mlb-200h.png"/>
+
+                 <button  id="5"  class="prix"><a href=""><span style="margin-left: -34px;margin-top: -6px;">10.60$</span></a></button>
+               <div class="detailsprod">
+                 <span>
+                   <span>CATÉGORIE : ENTRÉES</span>
+                   <br />
+                   <br />
+                   <br />
+                   <span>Nêms aux crevettes(4p)</span>
+                   <br />
+                   <br />
+                 </span>
+              </div>
+             </div>
+     
+       </div>
+       </div>
+       <div class="prod" id="tro">
+      
+         <span  class="bgblack"> Ramen </span>
+         <div class="products3">
+
+             <div class="prod" >
+              <img  style="width: 169px;height: 113px;" alt=""src="public/playground_assets/foodphotographer8nftsce1dwunsplash11149-yxh-200h.png"/>
+              <button  id="6"  type="button" class="prix"><a href=""><span style="margin-left: -34px;margin-top: -6px;">10.96$</span></a></button>
+              <!-- <button id="6"  class="prix"><span style="margin-left: -34px;margin-top: -6px;">10.96$</span></button> -->
+               <div class="detailsprod">
+                 <span>
+                   <span>CATÉGORIE : ENTRÉES</span>
+                   <br />
+                   <br />
+                   <br />
+                   <span>GYOZA – Raviolis grillés(6p)</span>
+                   <br />
+                   <br />
+                 </span>
+              </div>
+             </div>
+             <div class="prod">
+              <img   style="width: 169px;height: 113px;"alt=""src="public/playground_assets/foodphotographer2zcnfpqhlkuunsplash11112-1gdr-200h.png"/>
+              <button  id="7"  type="button" class="prix"><a href=""><span style="margin-left: -34px;margin-top: -6px;">5.96$</span></a></button>
+               <div class="detailsprod">
+                 <span>
+                   <span>CATÉGORIE : ENTRÉES</span>
+                   <br />
+                   <br />
+                   <br />
+                   <span>Nêms aux poulet(4p)</span>
+                   <br />
+                   <br />
+                 </span>
+              </div>
+             </div>
+             <div class="prod">
+              <img  style="width: 169px;height: 113px;"alt=""src="public/playground_assets/foodphotographer2zcnfpqhlkuunsplash21125-fuz8-200h.png"/>
+              <button  id="8"  type="button" class="prix"><a href=""><span style="margin-left: -34px;margin-top: -6px;">7.96$</span></a></button>
+                  <!-- <button id="8" class="prix"><span style="margin-left: -34px;margin-top: -6px;">7.60$</span></button> -->
+                <div class="detailsprod">
+                  <span>
+                    <span>CATÉGORIE : ENTRÉES</span>
+                    <br />
+                    <br />
+                    <br />
+                    <span>Nêms aux crevettes(4p)</span>
+                    <br />
+                    <br />
+                  </span>
+               </div>
+              </div>
+      
+        </div>
+        </div>
+      </div>
+      <div class="js">
+        <div  class="calcul">
+        <span id="mybag" >MY BAG</span>
+        <div class="bag">
+         <div> <span id="saumon" class="totalPrice" > <div> total</div><div class="price" style="margin-left:100px;background-color: #CA738F;">0</div> </span></div>
+         <div class="mamenu"> 
+         </div>
+        <div id="myOverlay" class="overlay">
+                     <span class="closebtn" onclick="document.getElementById('myOverlay').style.display = 'none'"  title="Close Overlay">&#215</span>
+                     <div class="wrap">
+                       <form>
+                           <div class="nom_complet">
+                               <div class="nom">
+                                   <label style="color:#ffffff;">NOM COMPLET</label>
+                                   <br>
+                                   <input class="fadwa"type="text" placeholder=""required >
+                                </div>
+                               </div>
+                           
+                           <div class="adresse">
+                               <label style="color:#ffffff;">ADRESSE</label>
+                               <br>
+                               <input class="fadwa"type="text" placeholder="" required >
+                           </div>
+                         
+                           <div class="TELEPHONE" style=" margin-top: 2%;">  
+                               <label style="color:#ffffff;" >TELEPHONE</label>
+                               <br> 
+                               <input class="fadwa" type="tel"  placeholder="600-45-678"  pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required >
+                            </div>
+                            <button onclick="myFunction()" id="confirmere"><a href="" style="text-decoration:none; color:black;"><div style="text-align: center;font-family: Roboto;font-weight: 700;">confirm</div></a></button>
+                       </form> 
+                     </div>
+               </div>
+        <button type="submit" onclick="document.getElementById('myOverlay').style.display = 'block'" class="openbtn">confirm</button>         
+       </div>
+       </div>
+      </div>
+     
+   </div>
+      <div class="footer">
+        <div class="div3">
+          <br>
+          <p>ANN ARBOR LOCATION</p>
+          <div>
+            <center><p>14 Av. Zerktouni, Safi</p>
+            <p>Ph: +212-6-00-00-00-00</p></center>
+          </div>
+        </div>
+        <div class="div2">
+          <br>
+          <p>HOURS:</p>
+          <span class="horaire">
+           <center> 
+            <br >
+            <span>Monday: Closed</span>
+            <br />
+            <br >
+            <span>Tuesday - Sunday:</span>
+            <br >
+            
+            <span>12:00pm - 9:00pm</span>
+            <br>
+          </span>
+        </center>
+        </div>
+        <div class="div1">
+          <center>
+            <br>
+            <em id="t">WE CAN CATER YOUR EVENT</em>
+         <p class="accueil-text34">
+            <br />We are happy to cater your event, party or business function.We
+            can customize a package for your needs. Please visit ourcatering page,
+            send us an email, and we will contact you aboutyour event.
+          </p></center>
+        </div>
+      </div>
+      <!-- <div class="menumobile">
+        <div class="dmenu">
+        <a href="index.html" style="text-decoration:none ;"><i class="ri-home-smile-line"></i></a>
+        <p>HOME</p>
+        </div>
+        <div class="dmenu">
+        <a href="izanagi.html" style="text-decoration:none ;"><i class="ri-question-line"></i></a>
+        <p>ABOUT</p>      
+        </div>
+        <div class="dmenu">
+        <a href="lacarte.html" style="text-decoration:none ;"><i class="ri-store-fill"></i></a>
+        <p>CARTE</p>
+        </div>
+        <div class="dmenu">
+        <a href="contact.html" style="text-decoration:none ;"><i class="ri-mail-line "></i></a>
+        <p>CONTACT</p>
+        </div>
+       
+    
+       </div> -->
+      <style>
+        @media screen and (max-width: 680px) {
+          .overlay{
+            width: 80%;
+          }
+  .wrap{
+  padding: 3px;
+}
+
+.openbtn{
+ 
+    margin-top: -14%;
+}
+
+#confirmere {
+    margin-left: 63%;
+    width: 107px;
+    height: 30px;
+  
+}
+}
+      </style>
+      <script src="./Untitled-3.js"></script>
+      <script>
+      function food(){
+        const f = document.getElementsByClassName('buttonfilter').value 
+        switch(f){
+            case 'entrer' : 
+            document.getElementById('premi').style.display = 'flex'
+            document.getElementById('deuxi').style.display = 'none'
+            document.getElementById('tro').style.display = 'none'
+            break;
+            case 'Sushi' : 
+            document.getElementById('premi').style.display = 'none'
+            document.getElementById('deuxi').style.display = 'flex'
+            document.getElementById('tro').style.display = 'none'
+            break;
+            case 'ramen' : 
+            document.getElementById('premi').style.display = 'none'
+            document.getElementById('deuxi').style.display = 'none'
+            document.getElementById('tro').style.display = 'flex'
+            break;
+        }
+    }</script>
+    <script>
+        function menu(){
+            document.querySelector(".moro").style.display='block'
+        }
+      function entrer(){
+        document.getElementById('premi').style.display = 'flex'
+        document.getElementById('deuxi').style.display = 'none'
+        document.getElementById('tro').style.display = 'none'
+      }
+      function sushi(){
+        document.getElementById('premi').style.display = 'none'
+        document.getElementById('deuxi').style.display = 'flex'
+        document.getElementById('tro').style.display = 'none'
+      }
+      function ramen(){
+        document.getElementById('premi').style.display = 'none'
+        document.getElementById('deuxi').style.display = 'none'
+        document.getElementById('tro').style.display = 'flex'
+      }
+    </script>
+  </body>
+</html>

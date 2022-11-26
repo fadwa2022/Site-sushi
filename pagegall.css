@@ -1,0 +1,619 @@
+body{
+    width: 100%;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#burger{
+  display: none;
+}
+.header{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.select {
+  margin-top: -1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 100%;
+
+}
+.hero{
+
+  display: flex;
+  flex-direction: column;
+}
+.accueil{
+  margin-top: 3%;
+  font-size: 150%;
+  text-shadow: 2px 2px #cdc1c1;
+  font-family: Cinzel;
+}
+.grbuttonexpo{
+  display: flex;
+  flex-direction: column;
+  margin-top: 0%;
+  text-align: center;
+}
+
+.body_page{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#rowdsel{
+  display: flex;
+flex-direction: row;
+}
+.btns{
+  padding: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around
+
+}
+ .buttonfilter{
+  background-color: #D9D9D9;
+  border-radius: 8.65261px;
+  border-color: #d9d7d7;
+  box-shadow: #000;
+  box-shadow: 3px 2px 3px #000000;
+  width: 15%;
+  font-size: 28px;
+  text-align: center;
+  font-family: Cinzel Decorative;
+} 
+.selimags{
+  padding: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.selimags1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.img1{
+  opacity: 0.6;
+  width: 21%;
+  box-shadow: 2px 2px 4px #000000;
+}
+.name{
+  color: rgba(75, 63, 71, 0.984);
+  font-size: 4em;
+  text-align: center;
+  font-family: Cinzel Decorative;
+  z-index: 1;
+  
+}
+#n1{
+  position:absolute;
+  margin-top: 14%;
+  margin-left: -65%;
+ 
+}
+#n2{
+  position:absolute;
+  margin-top: 14%;
+  
+ 
+}
+.explication{
+  font-size: 18px;
+    text-align: center;
+  
+}
+
+#n3{
+  position:absolute;
+  margin-top: 14%;
+ margin-left: 64%;
+ 
+}
+ .choixplat{
+  width: 50%;
+  height: 20%;
+  padding-bottom: 3%;
+ }
+ select {
+  background: linear-gradient(180deg, #925d78 0%, #2f2d2e 100%);
+  font-size: 1em;
+  padding: 24px 271px;
+  margin-left: 51%;
+
+}
+ .choixplat option{
+  color:#B98A99;
+  font-size: 100%;
+  font-family: Cinzel;
+  margin-top: -15%;
+
+ }
+.menu{
+  width: 56%;
+  height: 0%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.bgimg{
+  margin-top: -3%;
+}
+.text {
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  font-size: 228%;
+  font-family: Cinzel;
+  margin-top: -15%;
+}
+
+#button{
+  background-color: #D9D9D9; 
+ border-radius:8.65261px;
+ width: 211px;
+ height: 30px;
+ border-color: #D9D9D9;
+ margin-left: 23%;
+
+}
+.EXPLORE_OUR_DELICOUS_MENU{
+  color: rgb(245, 245, 245);
+  font-size: 11px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Roboto;
+  line-height: 50px;
+}
+.textview {
+    color: rgba(0, 0, 0, 0.8299999833106995);
+    font-weight: 700;
+    text-decoration: none;
+}
+.accueil-button {
+  margin-left: -26%;
+  height: 51px;
+
+}
+
+  
+/*BODY*/
+.body_page{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+ 
+}
+#bg{
+  margin-top: 2%;
+   background-image: url(./public/playground_assets/bgbod1.jpg);
+  background-size: cover;
+  backdrop-filter: blur(5px);
+}
+/*prod1*/
+
+
+.bgblack{
+  margin-left: 0%;
+  padding: 5%;
+  color: #c8557a;
+  font-size: 49px;
+  font-family: Cinzel Decorative;
+ 
+  font-weight: 800;
+}
+.bgblack p{
+  margin-left: 44%;
+  margin-top: 2%;
+  
+}
+.prod{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1%;
+  backdrop-filter: blur(8px);
+}
+.products{
+    display: flex;
+    
+    justify-content: space-around;
+}
+
+.detailsprod{
+  margin-top: 20px;
+}
+.prix{
+  margin-top: 10%;
+    background-color: #B98A99;
+    top: 20px;
+    height: 12px;
+    border-color: transparent;
+    border-radius: 4.737655162811279px;
+}
+.prix span{
+    color: rgba(0, 0, 0, 1);
+    width: 67px;
+    height: auto;
+    position: absolute;
+    font-size: 9px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: center;
+    font-family: Cinzel;
+    font-weight: 700;
+ 
+}
+/*prod2*/
+.barre2{
+    margin-top: 99px;
+    margin-left: 0px;
+}
+.barre2 span{
+  align-items: center;
+  margin-left: -51%;
+  position: absolute;
+  color: rgba(201, 115, 142, 1);
+  font-size: 36px;
+  font-family: Cinzel;
+  font-weight: 700;
+  line-height: 18px;
+  margin-top: 2%;
+}
+.products2{
+    display: flex;
+    justify-content: space-around;
+}
+/*prod3*/
+.barre3{
+    margin-top: 99px;
+    margin-left: 0px;
+}
+.barre3 span{
+   align-items: center;
+    margin-top:848px;
+    top: 420px;
+    left: 566px;
+    color: rgba(201, 115, 142, 1);
+    position: absolute;
+    font-size: 36px;
+    font-family: Cinzel;
+    font-weight: 700;
+    line-height: 18px;
+}
+.products3{
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttonfilter:hover {
+  background-color: #2322229c;
+  color: white;
+}
+/*calcule*/
+.js{
+  display: flex;}
+.surimi {
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    align-content: center;
+    
+}
+.calcul{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-image: url("./public/playground_assets/rectangle51199-a8v-700w.png");
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+#mybag{
+  margin-left: 28%;
+  margin-top: 2%;
+    color: rgba(0, 0, 0, 1);
+    font-family: Cinzel Decorative;
+    font-weight: 700;
+ 
+}
+.imag1{
+ display:none;
+  width: 250px;
+  height: 250px;
+    
+}
+.img2 {
+  display:none;
+  width: 250px;
+  height: 250px;
+}
+.bag{
+  width: 47%;
+  margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.mamenu{
+  overflow-x: clip;
+  overflow-y: auto;
+    height: 100px;
+    width: 340px;
+}
+
+#saumon{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+#confirmer{
+    
+    background: #CA738F;
+    width: 105px;
+    height: 25px;
+   
+    border-color: transparent;
+    border-radius: 29.45008087158203px;
+}
+/*footer*/
+.footer{
+  display: flex;
+   justify-content: space-around;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7599999904632568);
+}
+.div1 {
+  display:flex;
+  flex-direction: column;
+ 
+}
+#t{
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  font-family: Roboto;
+}
+.div1 p{
+  color: rgb(255, 255, 255);
+  width: 388px;
+  font-size: 9px;
+  text-align: center;
+  font-family: Roboto;
+}
+.div2 {
+  display:flex;
+  flex-direction: column;
+  margin-top: -1%;
+}
+.div2 p{
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  font-family: Roboto;
+
+}
+.horaire {
+  color: rgb(255, 255, 255);
+  font-size: 9px;
+  font-family: Roboto;
+  
+}
+.div3 {
+  display:flex;
+  flex-direction: column;
+  margin-top: -1%;
+}
+.div3 div{
+  color: rgba(255, 255, 255, 1);
+  font-size: 9px;
+  font-family: Roboto;
+  font-weight: 100;
+ 
+}
+.div3 p {
+  color: rgba(255, 255, 255, 1);
+  font-style: Regular;
+  font-family: Roboto;
+}
+.menumobile{
+    width: 87%;
+    display: none;
+    position: fixed;
+    background-color: #B98A99;
+    top: 43em;
+}
+.dmenu{
+   align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+i{
+   font-size: 1.5em;
+ color: black;
+ font-family: Cinzel;}
+.men{
+
+    font-size: 114%;
+    text-shadow: 2px 2px #cdc1c1;
+    font-family: Cinzel;
+
+}
+ul{
+    display: none;
+   
+}
+li{
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.memob{
+    display: none;
+}
+i{
+    font-size: 2.5em;
+  color: black;
+  font-family: Cinzel;}
+  @media screen and (max-width: 680px) {
+    .surimi {
+      width: 340px;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 5px;
+      align-content: center;
+      flex-direction: column;
+  }
+    .accueil{
+      font-size: 10px;
+      font-family: Cinzel;
+      line-height: 39px;
+    }
+    .bgimg {
+      height:158px;
+      width: 100%;
+    }
+  .text {
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    font-size: 174%;
+    font-family: Cinzel;
+    margin-top: -25%;
+}    
+.EXPLORE_OUR_DELICOUS_MENU {
+  color: rgb(245, 245, 245);
+  font-size: 6px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Roboto;
+  line-height: 21px;
+}
+#button{
+  width: 148px;
+}
+
+    /*body*/
+    select {
+      background: linear-gradient(180deg, #925d78 0%, #2f2d2e 100%);
+      font-size: 1em;
+      padding: 2px 111px;
+      margin-left: 38%;
+  }
+  .btns {
+    padding: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.buttonfilter {
+  background-color: #D9D9D9;
+  border-radius: 8.65261px;
+  width: 113px;
+  height: 30px;
+  border-color: #D9D9D9;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 0%;}
+    .products,.products2,.products3{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+  }
+  .selimags{
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .img1{
+    width: 51%;
+    MARGIN: auto;
+    padding: 3%;
+  }
+  .name{
+    display: none;
+  }
+
+    /*foot*/
+  #t{
+    font-size: 10px; 
+  }
+  .div1 p{
+    width: 150px;
+    font-size: 7px;
+    text-align: center;
+    font-family: Roboto;
+  }
+  .div2 p{
+    font-size:10px;
+  }
+  .horaire {
+    width: 100px;
+    font-size: 7px;
+    
+  }
+  .div3 div{
+    width: 100px;
+    font-size: 7px;
+  }
+  .div3 p {
+    font-size:10px;
+  }
+  .barre span,.barre2 span,.barre3 span{
+    margin-left: -80%;
+  }
+  .barre span{
+    margin-top: 2%;
+  }
+  .barre3 span{
+
+      margin-top: 348%;
+      margin-left: -77%;
+  
+  }
+  .barre2 span{
+    margin-top: 2%;
+    margin-left: -62%;  }
+    .imag1,.img2{
+      display: none;
+    }
+    .choixplat{
+      margin-top: 5%;
+}
+#mybag{
+  margin-left: 13%;
+  margin-top: 6%;
+}
+.accueil-button{
+  margin-top: -5%;
+}
+.hero{
+    display: none;
+  }
+  .accueil{
+    display: none;
+  }
+  .footer{
+    display: none;
+  }
+.s{
+    display: none;
+}
+.menumobile{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.memob{
+    display: block;
+}
+  }

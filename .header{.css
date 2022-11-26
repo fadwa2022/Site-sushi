@@ -1,0 +1,343 @@
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .select {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .menu{
+    width: 50%;
+    height: 0%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+  }
+  .accueil{
+    font-size: 100%;
+    font-family: Cinzel;
+  }
+  .bgimg{
+    margin-top: -3%;
+  }
+  .text {
+    position: absolute;
+    left: 42%;
+    top: 37%;
+    color: rgba(255, 255, 255, 1);
+    font-size: 228%;
+    font-family: Cinzel;
+  }
+  .grbuttonexpo{
+    position: absolute;
+    left: 42%;
+    bottom: 32%;
+  }
+  .EXPLORE_OUR_DELICOUS_MENU{
+    color: rgb(245, 245, 245);
+    font-size: 11px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Roboto;
+    line-height: 50px;
+  }
+  .textview {
+      color: rgba(0, 0, 0, 0.8299999833106995);
+      font-weight: 700;
+      text-decoration: none;
+  }
+  .accueil-button {
+    margin-left: -26%;
+    height: 51px;
+  
+  }
+  
+    
+  /*BODY*/
+  .body_page{
+    display: flex;
+    flex-direction: column;
+  }
+  /*prod1*/
+  
+  .barre span{
+      align-items: center;
+      top: 420px;
+      left: 566px;
+      color: rgba(201, 115, 142, 1);
+      position: absolute;
+      font-size: 36px;
+      font-family: Cinzel;
+      font-weight: 700;
+      line-height: 18px;
+  }
+  .bgblack{
+    width: 100%;
+  }
+  .products{
+      display: flex;
+      justify-content: space-around;
+  }
+  .prod{
+      display: flex;
+      flex-direction: column-reverse;
+  }
+  .detailsprod{
+    margin-top: 20px;
+  }
+  .prix{
+      background-color: #B98A99;
+      top: 20px;
+      height: 12px;
+      border-color: transparent;
+      border-radius: 4.737655162811279px;
+  }
+  .prix span{
+      color: rgba(0, 0, 0, 1);
+      width: 67px;
+      height: auto;
+      position: absolute;
+      font-size: 9px;
+      align-self: auto;
+      font-style: Bold;
+      text-align: center;
+      font-family: Cinzel;
+      font-weight: 700;
+   
+  }
+  /*prod2*/
+  .barre2{
+      margin-top: 99px;
+      margin-left: 0px;
+  }
+  .barre2 span{
+    align-items: center;
+    margin-left: -51%;
+    position: absolute;
+    color: rgba(201, 115, 142, 1);
+    font-size: 36px;
+    font-family: Cinzel;
+    font-weight: 700;
+    line-height: 18px;
+    margin-top: 2%;
+  }
+  .products2{
+      display: flex;
+      justify-content: space-around;
+  }
+  /*prod3*/
+  .barre3{
+      margin-top: 99px;
+      margin-left: 0px;
+  }
+  .barre3 span{
+     align-items: center;
+      margin-top:848px;
+      top: 420px;
+      left: 566px;
+      color: rgba(201, 115, 142, 1);
+      position: absolute;
+      font-size: 36px;
+      font-family: Cinzel;
+      font-weight: 700;
+      line-height: 18px;
+  }
+  .products3{
+      display: flex;
+      justify-content: space-around;
+  }
+  /*calcule*/
+  .rect{ 
+      margin-top: 104px;
+      margin-left: 250px;
+  }
+  #mybag{
+      position: absolute;
+      margin-top: 21px;
+      margin-left: -622px;
+      color: rgba(0, 0, 0, 1);
+      font-family: Cinzel Decorative;
+      font-weight: 700;
+      padding: 100px;
+  }
+  .imag1{
+      width: 502px;
+      height: 314px;
+      position: absolute;
+      top: 1667px;
+      LEFT: -93px;
+      
+  }
+  .img2{
+    display: none;
+      width: 502px;
+      height: 314px;
+      position: absolute;
+      top: 1560px;
+      LEFT: 650px;
+  }
+  .bag{
+      position: absolute;
+      margin-left: 404px;
+      margin-top: -132px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+ 
+  #saumon{
+      display: flex;
+  }
+  #confirmer{
+      
+      background: #CA738F;
+      top: 90px;
+      left: 129px;
+      width: 105px;
+      height: 25px;
+      position: absolute;
+      border-color: transparent;
+      border-radius: 29.45008087158203px;
+  }
+  /*footer*/
+  .footer{
+    display: flex;
+     justify-content: space-around;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7599999904632568);
+  }
+  .div1 {
+    display:flex;
+    flex-direction: column;
+   
+  }
+  #t{
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    font-family: Roboto;
+  }
+  .div1 p{
+    color: rgb(255, 255, 255);
+    width: 388px;
+    font-size: 9px;
+    text-align: center;
+    font-family: Roboto;
+  }
+  .div2 {
+    display:flex;
+    flex-direction: column;
+    margin-top: -1%;
+  }
+  .div2 p{
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    font-family: Roboto;
+  
+  }
+  .horaire {
+    color: rgb(255, 255, 255);
+    font-size: 9px;
+    font-family: Roboto;
+    
+  }
+  .div3 {
+    display:flex;
+    flex-direction: column;
+    margin-top: -1%;
+  }
+  .div3 div{
+    color: rgba(255, 255, 255, 1);
+    font-size: 9px;
+    font-family: Roboto;
+    font-weight: 100;
+   
+  }
+  .div3 p {
+    color: rgba(255, 255, 255, 1);
+    font-style: Regular;
+    font-family: Roboto;
+  }
+    @media screen and (max-width: 680px) {
+      .accueil{
+        font-size: 10px;
+        font-family: Cinzel;
+        line-height: 39px;
+      }
+      .bgimg {
+        height: 300px;
+        width: 100%;
+      }
+      .grbuttonexpo{
+        position: absolute;
+        left: 42%;
+        bottom: 29%;
+      }
+      /*body*/
+      .products,.products2,.products3{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+  
+      /*foot*/
+    #t{
+      font-size: 10px; 
+    }
+    .div1 p{
+      width: 150px;
+      font-size: 7px;
+      text-align: center;
+      font-family: Roboto;
+    }
+    .div2 p{
+      font-size:10px;
+    }
+    .horaire {
+      width: 100px;
+      font-size: 7px;
+      
+    }
+    .div3 div{
+      width: 100px;
+      font-size: 7px;
+    }
+    .div3 p {
+      font-size:10px;
+    }
+    .barre span,.barre2 span,.barre3 span{
+      margin-left: -80%;
+    }
+    .barre span{
+      margin-top: 2%;
+    }
+    .barre3 span{
+      margin-top: 350%;
+    }
+    .barre2 span{
+      margin-top: 2%;
+      margin-left: -62%;  }
+    .imag1,.img2{
+        display: none;
+      }
+    .rect {
+        margin-top: 91px;
+        margin-left: 84px;
+        width: 70%;
+    }
+    .bag {
+      margin-left: 109px;
+      margin-top: -80px;
+      height: 10%;
+    }
+    .openbtn{   
+       top: 60px;
+      left: 218px;
+      width: 73px;
+      height: 25px;}
+  
+    }
